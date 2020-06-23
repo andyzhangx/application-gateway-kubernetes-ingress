@@ -29,8 +29,8 @@ kubernetes:
 # Specify which application gateway the ingress controller will manage
 # Specity which cloud environment will be used AZURECHINACLOUD,AZUREGERMANCLOUD,AZUREPUBLICCLOUD,AZUREUSGOVERNMENTCLOUD default: AZUREPUBLICCLOUD
 #
-# appgw:
-#   environment: AZUREPUBLICCLOUD
+appgw:
+  environment: AZURECHINACLOUD
 #   subscriptionId: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 #   resourceGroup: myResourceGroup
 #   name: myApplicationGateway
